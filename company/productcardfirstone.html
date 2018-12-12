@@ -50,7 +50,7 @@
     .right{
       float: right;
       padding-right: 25%;
-      margin-top: -13%;
+      margin-top: -32%;
     }
     .right img{
       width: 565px;
@@ -159,8 +159,8 @@
   display: block;
 }
 .thumbnails img {
-  width: 30vmin;
-  height: 20vmin;
+  width: 18vmin;
+  height: 10vmin;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
@@ -233,7 +233,9 @@
   }
 }
   @media (max-width:1200px) {
-    
+    .right1{
+      display: none;
+    }
 
   }
 
@@ -248,12 +250,16 @@
       width: 100%;
     }
   .thumbnails {
-    margin-left: -30%;
+    margin-left: 18%;
     }
     .slides{
-      margin-top: 27%;
-    margin-left: -25%;
+      margin-top: 62%;
+    margin-left: -40%;
     }
+    .right1{
+      display: none;
+    }
+    
   }
 
   @media (max-width:400px) {
@@ -283,11 +289,15 @@
       width: 100%;
     }
     .thumbnails {
-    margin-left: -30%;
+    display: none;
     }
-    .slides{
-      margin-top: 27%;
-    margin-left: -25%;
+    
+    
+    .right1{
+      display: block;
+    }
+    .right1 img{
+      margin-top: 7%;
     }
   }
   
@@ -416,6 +426,7 @@
             
         </div>
         <div class="right">
+          <div class="container">
           <!-- <img src="product/product-1.jpg" alt=""> -->
           <ul class="slides">
               <li id="slide1"><img src="productfirstone/product1.jpg" alt="" /></li>
@@ -434,8 +445,9 @@
                   <a href="#slide3"><img src="productfirstone/product3.jpg" /></a>
               </li>
             </ul>
-
+          </div>
         </div>
+       
       
 </div> 
 
